@@ -1,4 +1,7 @@
-# lib/board.rb
+# lib/syslinux/board.rb
+
+# Functionality for reading data
+# about the system's motherboard
 module Mobo
   BASEDIR = "/sys/devices/virtual/dmi/id"
   

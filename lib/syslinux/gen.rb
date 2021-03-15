@@ -1,5 +1,7 @@
-# lib/gen.rb
-# Generic functions for all classes
+# lib/syslinux/gen.rb
+
+# Generic functions for the whole
+# library to use
 module Generics
   # Check if program is run
   # by `root` user

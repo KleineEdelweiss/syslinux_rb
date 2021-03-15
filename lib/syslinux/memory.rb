@@ -1,6 +1,11 @@
-# lib/memory.rb
+# lib/syslinux/memory.rb
 require './gen.rb'
 
+# Functionality for reading data
+# about the system's memory modules
+# and usage.
+# 
+# PARTS OF THIS REQUIRE `root` ACCESS
 module Memory
   # Memory spec access requires
   # the `dmidecode --type 17` call -- this
