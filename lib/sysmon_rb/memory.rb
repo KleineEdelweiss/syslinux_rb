@@ -1,4 +1,4 @@
-# lib/syslinux/memory.rb
+# lib/sysmon_rb/memory.rb
 require './gen.rb'
 
 # Functionality for reading data

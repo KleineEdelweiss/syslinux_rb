@@ -1,4 +1,4 @@
-# lib/syslinux/gen.rb
+# lib/sysmon_rb/gen.rb
 
 # Generic functions for the whole
 # library to use

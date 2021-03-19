@@ -1,9 +1,9 @@
 # frozen_string_literal: true
-require_relative "lib/syslinux/version.rb"
+require_relative "lib/sysmon_rb/version.rb"
 
 Gem::Specification.new do |spec|
-  spec.name = "syslinux"
-  spec.version = Syslinux::VERSION
+  spec.name = "sysmon_rb"
+  spec.version = SysMon::VERSION
   spec.summary = "Access Linux system information in Ruby"
   spec.description = <<~DESC
     Ruby module to provide access to Linux system information.
@@ -16,21 +16,21 @@ Gem::Specification.new do |spec|
   DESC
   spec.authors = ["Edelweiss"]
   
-  spec.homepage = "https://github.com/KleineEdelweiss/syslinux_rb"
+  spec.homepage = "https://github.com/KleineEdelweiss/sysmon_rb"
   spec.licenses = ["LGPL-3.0"]
   spec.metadata = {
     "homepage_uri"        => spec.homepage,
-    "source_code_uri"     => "https://github.com/KleineEdelweiss/syslinux_rb",
+    "source_code_uri"     => "https://github.com/KleineEdelweiss/sysmon_rb",
     #"documentation_uri"   => "",
-    #"changelog_uri"       => "https://github.com/KleineEdelweiss/syslinux_rb/blob/master/CHANGELOG.md",
-    "bug_tracker_uri"     => "https://github.com/KleineEdelweiss/syslinux_rb/issues"
+    #"changelog_uri"       => "https://github.com/KleineEdelweiss/sysmon_rb/blob/master/CHANGELOG.md",
+    "bug_tracker_uri"     => "https://github.com/KleineEdelweiss/sysmon_rb/issues"
   }
   
   spec.files = Dir.glob("lib/**/*")
   
   spec.extra_rdoc_files = Dir["README.md", "CHANGELOG.md", "LICENSE.txt"]
   spec.rdoc_options += [
-    "--title", "Syslinux -- Linux System Info",
+    "--title", "SysMon RB -- Linux Ruby System Info",
     "--main", "README.md",
     "--line-numbers",
     "--inline-source",

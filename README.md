@@ -1,5 +1,5 @@
 ## README ##
-Syslinux is a Ruby gem that will enable the user to efficiently access much system information from their Linux computer. It includes (or will include) CPU, RAM, OS, environment, process, and motherboard information.
+Sysmon_rb is a Ruby gem that will enable the user to efficiently access much system information from their Linux computer. It includes (or will include) CPU, RAM, OS, environment, process, and motherboard information.
 
 
 This gem is designed to be used as part of either a server-type program for constant monitoring, or for use in other programs that might need access to system data.

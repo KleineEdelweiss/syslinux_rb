@@ -1,4 +1,4 @@
-# lib/syslinux/board.rb
+# lib/sysmon_rb/board.rb
 
 # Functionality for reading data
 # about the system's motherboard
